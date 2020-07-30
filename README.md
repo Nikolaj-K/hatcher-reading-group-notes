@@ -30,13 +30,19 @@ x
 \subsubsection*{Compact}
 \subsubsection*{Cone}
 \subsubsection*{Continuous}
+TODO
 \subsubsection*{Contractible space}
 \subsubsection*{CW-pair}
 \subsubsection*{CW complex}
 
-\subsubsection*{Deformation}
+\subsubsection*{Deformation retraction}
+TODO, needs retraction.\\
+Ans needs homotopy\\
+\url{https://en.wikipedia.org/wiki/Retraction_(topology)}
 \subsubsection*{Dimension of a CW complex}
 \subsubsection*{Disc ${\mathbb D}^n$}
+Notes:\\
+$I:=D^1$ is the interval used for the definition of a homotopy.
 \subsubsection*{Disjoint union}
 
 \subsubsection*{Equivalence relation}
@@ -47,12 +53,16 @@ x
 
 \subsubsection*{Homeomorphic}
 \subsubsection*{Homotopy}
+TODO
+\url{https://en.wikipedia.org/wiki/Homotopy}
 \subsubsection*{Homotopy equivalence}
 \subsubsection*{Homotopy extension property}
 \subsubsection*{Homotopy Type}
 \subsubsection*{House with two rooms}
 
-\subsubsection*{Infinite sphere ${\mathbb S}^\infty$}\subsubsection*{Torus ${\mathbb T}^n$}
+\subsubsection*{Inclusion map}
+TODO
+\subsubsection*{Infinite sphere ${\mathbb S}^\infty$}
 
 \subsubsection*{Join}
 
@@ -77,6 +87,8 @@ x
 \subsubsection*{Rel}
 \subsubsection*{Relation of homotopy among maps $X\to Y$}
 \subsubsection*{Retraction}
+TODO, needs inclusion map\\
+\url{https://en.wikipedia.org/wiki/Retraction_(topology)}
 
 \subsubsection*{Simplex}
 \subsubsection*{Skeleton}
@@ -84,6 +96,9 @@ x
 \subsubsection*{Subspace of ${\mathbb R}^n$}
 
 \subsubsection*{Topology}
+TODO
+\subsubsection*{Torus ${\mathbb T}^n$}
+TODO
 
 \subsubsection*{Smash product}
 \subsubsection*{Sphere ${\mathbb S}^n$}
