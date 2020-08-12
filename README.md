@@ -14,6 +14,8 @@ $f\colon A\to X$
 
 $X\cup_f Y = (X\amalg Y) / \sim_f$
 
+TODO: Be more precise about the definition\\
+
 \subsubsection*{Boundary}
 
 \subsubsection*{Cantor set}
@@ -151,6 +153,8 @@ Equivalently for ${\mathbb T}^n$.
 Up to homeomorphism, 
 
 ${\mathbb S}^n = \left\{ x \in {\mathbb R}^{n+1} \mid \vert\vert x \vert\vert = 1 \right\}$ with the subset topology induced from ${\mathbb R}^{n+1}$.\\
+
+TODO: describe induced topology\\
 
 With $S^{n}$ the (radius 1/2, i.e. smaller) sphere with south pole at $0\in {\mathbb R}^{n+1}$ and north pole at $\langle 0,\dots, 0, 1\rangle$,\\
 $P_N\colon S^{n}\to({\mathbb R}^n \cup \{{\mathrm{pt}}\})$\\
