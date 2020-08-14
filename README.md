@@ -8,7 +8,13 @@ Some formal foo $y=x^2$ bar.\\
 
 \subsubsection*{Antipodal}
 \subsubsection*{Attached along a map}
-TODO
+$A$ ... topological subspace of $Y$
+
+$f\colon A\to X$
+
+$X\cup_f Y = (X\amalg Y) / \sim_f$
+
+TODO: Be more precise about the definition\\
 
 \subsubsection*{Boundary}
 
@@ -125,14 +131,36 @@ Essentially dual to a section.
 \subsubsection*{Simplex}
 \subsubsection*{Skeleton}
 \subsubsection*{Subcomplex}
-\subsubsection*{Subspace of ${\mathbb R}^n$}
+\subsubsection*{Topological subspace}
+$\langle X, T_X\rangle$
 
-\subsubsection*{Torus ${\mathbb T}^n$}
-TODO
+The topological subspace is the topological spaces
+$\langle A, T_A\rangle$
+where $A\subset X$ and $T_A\equiv \{U\cap A\mid U\in T_X\}$
 
+\subsubsection*{Topological torus ${\mathbb T}^2$}
+Up to homeomorphism, 
+
+${\mathbb S}^1 \times {\mathbb S}^1$ with the box topology.\\
+
+Also ${\mathbb R}^2/\sim$ with $\sim$ given via\\
+$\langle x,y\rangle\sim\langle x+1,y\rangle\sim\langle x,y+1\rangle$\\
+
+Equivalently for ${\mathbb T}^n$.
 
 \subsubsection*{Smash product}
-\subsubsection*{Sphere ${\mathbb S}^n$}
+\subsubsection*{Topological sphere ${\mathbb S}^n$}
+Up to homeomorphism, 
+
+${\mathbb S}^n = \left\{ x \in {\mathbb R}^{n+1} \mid \vert\vert x \vert\vert = 1 \right\}$ with the subset topology induced from ${\mathbb R}^{n+1}$.\\
+
+TODO: describe induced topology\\
+
+With $S^{n}$ the (radius 1/2, i.e. smaller) sphere with south pole at $0\in {\mathbb R}^{n+1}$ and north pole at $\langle 0,\dots, 0, 1\rangle$,\\
+$P_N\colon S^{n}\to({\mathbb R}^n \cup \{{\mathrm{pt}}\})$\\
+$P_N(x_1=0,\dots,x_{n-1}=0,x_n=1):={\mathrm{pt}}$\\
+$P_N(a, x_n):=\frac{1}{1-x_n}\cdot a$
+
 \subsubsection*{Suspension}
 
 \subsubsection*{Wedge sum}
