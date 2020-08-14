@@ -16,10 +16,10 @@ TODO
 \subsubsection*{Cartesian space ${\mathbb R}^n$}
 The set of all $n$-tuples, $\{ (x_1, x_2, ... , x_n) : x_i \in \mathbb{R} \}$.\\
 The number $n$ is called the dimension of $\mathbb{R}^n$, and the $n$-tuples
-can be thought of as vectors, since they form a natural vector space.\\
+can be thought of as vectors, since they form a known vector space.\\
 The set is typically augmented with the "Usual Topology", or sometimes the
 "Euclidean Topology", whose basis is the set of all balls,
-$\{ (x_1, x_2, ..., x_n) : \sqrt{x_1^2 + x_2^2 + ... + x_n^2} < r, r > 0 \}$.
+$\{ (x_1, x_2, ..., x_n) + (y_1,y_2,...,y_n) : \sqrt{x_1^2 + x_2^2 + ... + x_n^2} < r, r > 0 \}$.
 Equivalently, the topology can be defined so that a subset $U$ is open if and only
 if for all $u\in U$, there is a ball $B_r$ so that $u \in B_r \subseteq U$.
 If no topology on the space is mentioned it is assumed to be the Usual.
@@ -36,7 +36,8 @@ is $CX = (X \times I) / (X \times \{0\})$.
 
 
 \subsubsection*{Contractible space} A Topological Space is called Contractible
-iff the identity map on the space is homotopic to a constant map.  For example,
+iff the identity map on the space is homotopic to a constant map, that is if
+the identity is hull-homotopic.  For example,
 the Euclidean space of any dimension is Contractible to any point,
 the circle is not Contractible, a disconnected set is not Contractible.  
 
@@ -60,9 +61,9 @@ $I:=D^1$ is the interval used for the definition of a homotopy.
 The Disjoint Union is most properly described in terms of universal properties,
 but because of that it has many equivalent concrete descriptions.  So we pick
 a totally arbitrary definition, the Disjoint Union of a collection of sets,
-$X_i$, indexed by $i\in I$, is just $\bigcup_{i\in I} \bigcup_{x\in X_i} (i, x)$.
-This is usually written $\bigsqcup_{i\in I} X_i$, or you could write it as a
-binary operation, $A \sqcup B$.\\
+$X_j$, indexed by an arbitrary set $j\in J$, is just $\bigcup_{j\in J} \bigcup_{x\in X_j} (j, x)$.
+This is usually written $\bigsqcup_{j\in J} X_j$, or you could write it as a
+binary operation, where the disjoint union of two sets $A,B$ is written $A \sqcup B$.\\
 Taking a concrete example the disjoint union of $\{a, b\}$ and $\{b, c\}$ is
 $\{(0,a), (0,b), (1,b), (1,c)\}$ if the sets are indexed by $0,1$.
 This is just a way of forcing sets to be disjoint before we take their unions,
